@@ -11,6 +11,7 @@ public class LinkedList<E>{
 
      public E getElement(){return element;}
      public Node<E> getNext(){return next;}
+     public boolean hasNext(){ return getNext()!=null;}
      public void setNext(Node<E> n){next = n;}
 
   }
